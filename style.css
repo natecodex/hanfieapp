@@ -101,7 +101,7 @@ a.active,a:hover{
             left: 0;
         }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 400px) {
         body {
           background-image: url("images/nus.jpg");
           display: inline-block;
