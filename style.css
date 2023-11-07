@@ -109,38 +109,30 @@ a.active,a:hover{
           /* Additional mobile-specific styles */
         }
       }
-      
     
 
 
 
 
 
+
 */
-
-
-
-.left, .right{
-    flex-basis: 50%;
+.container {
+    text-align: center;    
 }
-.left h1{
-    font-size: 50px;
-    color: white;
-    margin-bottom: 20px;
-    padding: 0px;
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-.left{
-    max-width: 450px;
-    padding-left: 170px;
-
-}
-.left p{
-    font-size: 20px;
-    margin-bottom: 50px;
-    color: aliceblue;
-}
-
-.button {
+h1, p {
+    font-weight: bold;
+    color: #efefef;
+  }
+  
+  .button {
     display: flex;
     padding: 10px 20px;
     background-color: black;
@@ -150,46 +142,30 @@ a.active,a:hover{
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    
   }
-  
-.button:hover {
+
+  .button:hover {
     background-color:rgba(0, 187, 255, 0.207);
   }
   
 .button:active {
     background-color:rgba(0, 187, 255, 0.207);
-  }
-  
-.right img{
-    margin-bottom: 150px;
-    margin-top: 300px;
-    background-color: aliceblue;
-    transform: translate(0, -50%);
-    width: 200px;
-    height: 190px;
-    border-radius: 50%;
-    overflow: hidden;
 }
-  
-.right {
-    max-width: 450px;
-    padding-right: 170px;  
-   
-  }
-  
 
-  .footer {
+
+
+
+
+ .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    padding: 20px;
-
-   
-  }
-  
-  .social {
+    padding: 20px; 
+  }  
+ .social {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -208,7 +184,7 @@ a.active,a:hover{
   .social a:hover {
     background-color: white;
   
-  }
+ }
   
   
   .copy-right {
